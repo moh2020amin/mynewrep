@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: Tahoma,Arial;
+}
+
+.parent{
+    width: 600px;
+    margin: 40px auto;
+    background: #EEE;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.parent input {
+    border: 0;
+    padding: 15px;
+    margin-bottom: 15px;
+    width:100%;
+    font-size: 20px;
+    
+}
+
+.parent input:focus{
+    outline:none;
+}
+
+.parent .buttons span:hover{
+    background-color: rgb(243, 148, 148);
+    color:black;
+}
+
+.parent .buttons{
+    display:flex;
+    justify-content:space-between;
+}
+
+.parent .buttons span{
+    background-color:#009688;
+    text-align: center;
+    color:#FFF;
+    padding: 6px 10px;
+    border-radius:7px;
+    cursor: pointer;
+}
+
+.parent .resiult{
+    background-color:#FFF;
+    margin-top: 15px;
+    border: 2px dashed #EEE;
+    text-align: center;
+    padding:20px;
+}
+
+.parent .resiult span span{
+    font-weight: bold;
+    color:#009688
+}
